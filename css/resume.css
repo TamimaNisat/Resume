@@ -7,9 +7,9 @@ body {
   font-family: 'Open Sans', serif;
   padding-top: 54px;
   color: #868e96; }
-/*! change start */
 
-.mb-0 {
+
+/*!  .mb-0 {
   font-size: 2.5rem;
   white-space: nowrap;
   overflow: hidden;
@@ -23,15 +23,16 @@ body {
     width: 0;
   }
   to {
-    width: 13ch; /* Adjust according to character count */
+    width: 13ch;  
   }
 }
 
 @keyframes blink {
   50% {
     border-color: transparent;
-  }
-  /*! change end */
+  } 
+  */
+   
 
 @media (min-width: 992px) {
   body {
